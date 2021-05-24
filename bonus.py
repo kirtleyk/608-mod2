@@ -7,6 +7,7 @@ program. Make sure the output is clearly labeled and useful. 
 import statistics
 from random import randint
 
+
 values = list()  #create values list
 for n in range(101): #create 101 random numbers between 1-1000 and add to the list 
     values.append(randint(1, 1000))
